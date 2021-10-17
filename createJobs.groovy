@@ -1,18 +1,16 @@
 pipelineJob('theme-park-job'){
     definition {
-        cpsScm{
+        cpsScm {
             scm {
-                git{
+                git {
                     remote {
-                        url 'https://github.com/shwethaQS/jenkins-demo.git'
+                        url 'https://github.com/shwethaQS/spring-boot-api-example.git'
                     }
                     branch 'master'
                 }
             }
         }
-        
-    
-    }
+      }
 }
 pipelineJob('pipelineJob') {
     definition {
